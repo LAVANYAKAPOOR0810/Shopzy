@@ -73,7 +73,6 @@ cd ../frontend
 npm install
 npm run dev
 
-🔑 Key API Endpoints
 ## 🔑 Key API Endpoints
 
 | Method | Endpoint | Description | Access |
