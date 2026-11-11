@@ -74,10 +74,13 @@ npm install
 npm run dev
 
 🔑 Key API Endpoints
-Method	Endpoint	Description	Access
-POST	/api/auth/register	Register a new user	Public
-POST	/api/auth/login	User authentication & token issuance	Public
-GET	/api/products	Fetch all products	Public
-GET	/api/products/:id	Fetch product details by ID	Public
-POST	/api/cart	Add item to user shopping cart	Protected
-POST	/api/orders	Create a new order	Protected
+## 🔑 Key API Endpoints
+
+| Method | Endpoint | Description | Access |
+| :--- | :--- | :--- | :--- |
+| `POST` | `/api/auth/register` | Register a new user | Public |
+| `POST` | `/api/auth/login` | User authentication & token issuance | Public |
+| `GET` | `/api/products` | Fetch all products | Public |
+| `GET` | `/api/products/:id` | Fetch product details by ID | Public |
+| `POST` | `/api/cart` | Add item to user shopping cart | Protected |
+| `POST` | `/api/orders` | Create a new order | Protected |
