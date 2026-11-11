@@ -46,32 +46,32 @@ Shopzy/
 
 
 ⚙️ Installation and Setup
-Prerequisites
-Node.js (v16.x or higher)
-MongoDB instance (Local or MongoDB Atlas)
-Git
+Prerequisites<br>
+Node.js (v16.x or higher)<br>
+MongoDB instance (Local or MongoDB Atlas)<br>
+Git<br>
 1. Clone the Repository
 
-git clone [https://github.com/LAVANYAKAPOOR0810/Shopzy.git](https://github.com/LAVANYAKAPOOR0810/Shopzy.git)
+git clone [https://github.com/LAVANYAKAPOOR0810/Shopzy.git](https://github.com/LAVANYAKAPOOR0810/Shopzy.git)<br>
 cd Shopzy
 
 2. Backend Setup
 
-cd backend
-npm install
-Create a .env file in the backend directory and add your environment variables:
-Code snippet
-PORT=5000
-MONGO_URI=your_mongodb_connection_string
-JWT_SECRET=your_jwt_secret_key
-Start the backend server:
+cd backend<br>
+npm install<br>
+Create a .env file in the backend directory and add your environment variables:<br>
+Code snippet<br>
+PORT=5000<br>
+MONGO_URI=your_mongodb_connection_string<br>
+JWT_SECRET=your_jwt_secret_key<br>
+Start the backend server:<br>
 npm start
 
 3. Frontend Setup
 
-cd ../frontend
-npm install
-npm run dev
+cd ../frontend<br>
+npm install<br>
+npm run dev<br>
 
 ## 🔑 Key API Endpoints
 
